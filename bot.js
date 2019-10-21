@@ -12,7 +12,16 @@ client.on('message', message => {
 
   	if (message.content === 'hi') {
   		message.reply('i am fine, You ?');
-  	}
+      }
+      
+      if(message.content === '!steam') {
+          message.reply('https://steamcommunity.com/profiles/76561198875478329/');
+
+          if(message,conent === '!youtube'){
+              message.reply('https://www.youtube.com/channel/UCVp9Jpmb40swyL5UfSmqf3A');
+          }
+      }
+
 });
 
 // THIS  MUST  BE  THIS  WAY
