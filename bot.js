@@ -11,7 +11,7 @@ client.on('message', message => {
   	}
 
   	if (message.content === 'hi') {
-  		message.reply('i am fine, You ?');
+  		message.reply('https://www.youtube.com/channel/UCVp9Jpmb40swyL5UfSmqf3A ?');
       }
       
       if(message.content === '!steam') {
